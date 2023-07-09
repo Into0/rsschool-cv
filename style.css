@@ -136,6 +136,17 @@ figcaption {
   display: none;
 }
 
+time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 40px;
+}
+
+time img {
+  width: 100px;
+}
+
 .header {
   position: fixed;
   width: 100%;
@@ -403,7 +414,6 @@ figcaption {
   margin: 20px auto;
   text-align: center;
 }
-
 
 @media only screen and (max-width: 720px) {
 
